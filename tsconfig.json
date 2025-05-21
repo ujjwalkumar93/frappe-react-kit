@@ -4,7 +4,20 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
-  "compilerOptions": {
-    "types": ["node"]
-  }
+    "compilerOptions": {
+      "module": "ESNext",
+      "target": "ESNext",
+      "lib": ["DOM", "ESNext"],
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "jsx": "react-jsx",
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noEmit": true,
+      "resolveJsonModule": true
+    }
+  
+  
 }
